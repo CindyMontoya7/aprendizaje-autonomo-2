@@ -1,2 +1,20 @@
 # aprendizaje-autonomo-2
 Analizar e implementar las funcionalidades y la arquitectura del software, aplicando los conocimientos adquiridos durante las semanas de clase.
+
+Paso 1. Inicio del Desarrollo de Software./ Configuración del entorno.
+El estudiante deberá: 
+
+Configurar un repositorio en GitHub para el desarrollo del proyecto. 
+Subir los diagramas de flujo elaborados a partir de las funcionalidades identificadas. 
+Preparar el entorno de desarrollo (lenguaje, herramientas, IDE, etc.). 
+Iniciar la codificación del software. 
+Presentar un avance inicial del desarrollo del sistema. 
+Entregables del Paso 1 
+
+Link del repositorio de GitHub 
+Diagramas de flujo cargados en el repositorio 
+Avance del código del programa 
+Video explicativo que incluya: 
+Configuración del repositorio 
+Explicación del avance del código 
+Relación con los diagramas 
