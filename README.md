@@ -18,3 +18,17 @@ Video explicativo que incluya:
 Configuración del repositorio 
 Explicación del avance del código 
 Relación con los diagramas 
+
+Paso 2. Desarrollo del programa seleccionado
+El estudiante deberá: 
+
+Implementar las funcionalidades principales del software. 
+Aplicar estructuras lógicas (condicionales). 
+Implementar estructuras repetitivas (bucles). 
+Organizar el código de manera clara y estructurada. 
+Incluir comentarios en las partes más importantes o complejas. 
+Entregables del Paso 2 
+
+Código actualizado en el repositorio de GitHub 
+Video explicativo del avance del desarrollo 
+Video demostrativo del funcionamiento del programa 
