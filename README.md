@@ -1,3 +1,16 @@
+--------------------------------
+Nombre del proyecto: El impacto de las nuevas tecnologías en la sociedad: desarrollo y proyección de soluciones informáticas 
+Integrantes: Cindy Margarita Montoya Herrera
+Objetivo del sistema: Creación de un cajero automático
+Descripción de funcionalidades: 
+- Login (por medio de usuario y clave)
+- Consulta de saldo
+- Deposito de dinero
+- Retiro de dinero
+- Cambio de clave
+Fecha: 28 de junio del 2026
+-------------------------------
+
 # aprendizaje-autonomo-2
 Analizar e implementar las funcionalidades y la arquitectura del software, aplicando los conocimientos adquiridos durante las semanas de clase.
 
