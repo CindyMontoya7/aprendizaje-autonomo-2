@@ -45,3 +45,5 @@ Entregables del Paso 2
 Código actualizado en el repositorio de GitHub 
 Video explicativo del avance del desarrollo 
 Video demostrativo del funcionamiento del programa 
+
+Trabajo completo.
