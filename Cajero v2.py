@@ -8,7 +8,7 @@ Lenguaje: Python 3
 # Cada usuario tiene: PIN de 4 dígitos y saldo inicial.
 # UNIVERSIDAD INTERNACIONAL DEL ECUADOR
 # CINDY MARGARITA MONTOYA
-# MAYO 2026
+# JUNIO 2026
 # ---------------------------------------------------------
 
 pin_cindy = "1234"
@@ -24,11 +24,20 @@ pin_jean = "9876"
 saldo_jean = 500.0
 
 # ---------------------------------------------------------
+# TUPLA: guardamos los nombres de usuario que son válidos
+# en el cajero. Una tupla es parecida a una lista, pero no
+# se puede modificar después de creada. Aquí la usamos para
+# revisar fácilmente si la tarjeta ingresada existe o no,
+# usando la palabra "in".
+# ---------------------------------------------------------
+usuarios_validos = ("cindy", "juan", "rafa", "jean")
+
+# ---------------------------------------------------------
 # Variables de control
 # ---------------------------------------------------------
 print("UNIVERSIDAD INTERNACIONAL DEL ECUADOR")
 print("CINDY MARGARITA MONTOYA")
-print("MAYO 2026")
+print("JUNIO 2026")
 print("----- BIENVENIDO AL CAJERO AUTOMÁTICO -----\n")
 tarjeta = input("Hola buen día, por favor ingrese su tarjeta (usuario): ").strip().lower()
 
@@ -37,21 +46,25 @@ pin_correcto = ""
 autenticado = False
 tarjeta_valida = False
 
-# IF / ELIF / ELSE: identificamos si la tarjeta existe y cuál es su PIN correcto
-if tarjeta == "cindy":
-    pin_correcto = pin_cindy
-    tarjeta_valida = True
-elif tarjeta == "juan":
-    pin_correcto = pin_juan
-    tarjeta_valida = True
-elif tarjeta == "rafa":
-    pin_correcto = pin_rafa
-    tarjeta_valida = True
-elif tarjeta == "jean":
-    pin_correcto = pin_jean
+# Usamos la tupla "usuarios_validos" junto con "in" para saber
+# si la tarjeta ingresada corresponde a alguno de los usuarios
+# registrados en el cajero.
+if tarjeta in usuarios_validos:
     tarjeta_valida = True
 else:
     tarjeta_valida = False
+
+# IF / ELIF / ELSE: ya sabemos que la tarjeta es válida (está en la tupla),
+# ahora identificamos cuál es su PIN correcto
+if tarjeta_valida == True:
+    if tarjeta == "cindy":
+        pin_correcto = pin_cindy
+    elif tarjeta == "juan":
+        pin_correcto = pin_juan
+    elif tarjeta == "rafa":
+        pin_correcto = pin_rafa
+    elif tarjeta == "jean":
+        pin_correcto = pin_jean
 
 # ---------------------------------------------------------
 # Validación del PIN (máximo 3 intentos) usando WHILE
